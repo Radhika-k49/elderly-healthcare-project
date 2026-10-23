@@ -1,0 +1,34 @@
+<div class="div1">
+   <p>
+    Our physiotherapists are well trained,certified with proper skills and 
+    also varified one to provide top notch service to you.They have cater many elders 
+    and made their recovery faster.Their skills will help you to recover from dieases 
+    that are common to old age.
+   </p>
+    <p>
+    They help you to keep yourself movable so that your old age does not feel like 
+    a burden to you.They will apply treatments that are beneficial to your bones 
+    muscles and overall body.
+    </p>
+</div>
+
+<img src="physiotherapist-photo.jpg" alt="physiotherapists photo" class="image">
+
+<div class="div2">
+   Some of our <span>varified</span> physiotherapists who has provided their services to top 
+   industrialists and actors are shown below as --
+</div>
+
+@for(person of physio; track person.id)
+ {
+ <div class="outerdiv">
+    <img [src] = "person.img" alt="image"/>
+    <div class="text">
+        <p style="font-size:20px;font-weight:bold;">{{person.name}}</p>
+        <p>Age:{{person.age}}</p>
+        <p>Experiance:{{person.experiance}}</p>
+    </div> 
+ </div>
+ }
+
+ <button><a routerLink="../">Back to Home</a></button>

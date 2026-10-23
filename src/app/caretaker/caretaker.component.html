@@ -1,0 +1,33 @@
+<div class="div1">
+    We provide varified , certified and well trained caretakers that 
+    provide high level of care services to the elders of your family. 
+    we provide caretaker services for partial hours of the day or for 24 hours 
+    depending upon your will.
+</div>
+
+<div class="div2">
+    We provide both male and female caretakers.You can interview your hired 
+    caretaker and can replace them if not satisfied.You can do police varification 
+    at your personal level although all the caretakers are pre varified .
+</div>
+
+ <img src="caretaker-photo.jpg" alt="caretaker-photo" class="image"/>
+ 
+ <div class="div3">
+    Every caretaker is precisely chosen to well cater your requirements.A few of our 
+    caretakers' <span>varified</span> profiles are as shown below --
+ </div>
+
+ @for(person of caretaker; track person.id)
+ {
+ <div class="outerdiv">
+    <img [src] = "person.img" alt="image"/>
+    <div class="text">
+        <p style="font-size:20px;font-weight:bold;">{{person.name}}</p>
+        <p>Age:{{person.age}}</p>
+        <p>Experiance:{{person.experiance}}</p>
+    </div> 
+ </div>
+ }
+
+ <button><a routerLink="../">Back to Home</a></button>

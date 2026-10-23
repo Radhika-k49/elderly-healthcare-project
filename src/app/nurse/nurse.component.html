@@ -1,0 +1,34 @@
+<div class="div1">
+    <p>
+    We have well educated,well skilled and varified nurses that has completed their 
+    training from well known hospitals.These nurses have years of experiance of 
+    working with the best doctors.Hence these nurses have first hand experiance of 
+    working with emergency situations.
+    </p>
+
+    <p>
+    If a person is getting discharged from the hospital and need post treatment care 
+    and professional observation then these nurses are the perfect solution for you.
+    </p>
+</div>
+
+<img src="nurse-photo.jpg" alt="nurse-photo" class="image"/>
+
+<div class="div2">
+    Our Nurses have provided their post hospital services and even home observation 
+    services to many people. Some of these <span>varified</span> nurses are as below --
+</div>
+
+@for(person of nurse; track person.id)
+ {
+ <div class="outerdiv">
+    <img [src] = "person.img" alt="image"/>
+    <div class="text">
+        <p style="font-size:20px;font-weight:bold;">{{person.name}}</p>
+        <p>Age:{{person.age}}</p>
+        <p>Experiance:{{person.experiance}}</p>
+    </div> 
+ </div>
+ }
+
+ <button><a routerLink="../">Back to Home</a></button>

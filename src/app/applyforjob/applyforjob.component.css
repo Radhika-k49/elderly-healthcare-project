@@ -1,0 +1,107 @@
+.div1
+{
+    margin-top:50px;
+}
+.div1>p
+{
+    font-size:20px;
+    color:brown;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:40px;
+    margin-right:40px;
+}
+.div1 table
+{
+    border-spacing:20px;
+    margin-left:40px;;
+}
+.div1 table td
+{
+  background-color: antiquewhite;
+  border-radius:20px;
+  font-size:20px;
+  font-family:Arial, Helvetica, sans-serif;
+  padding:30px;
+  color:brown;
+  padding-top:40px;
+}
+
+.div1 table td div
+{
+    height:150px;
+    width:250px;
+}
+
+table td p
+{
+    font-size:20px;
+    color:brown;
+    font-weight:bold;
+    text-align:center;  
+}
+
+table td:hover
+{
+    transform: rotate(4deg);
+    border:1px solid brown;
+}
+
+.induct
+{
+    margin-left:40px;
+    color:brown;
+    font-size:20px;
+}
+
+span
+{
+    font-size:25px;
+    color:darkred;
+    text-decoration: underline;
+    margin-left:5px;
+}
+
+.div2
+{
+    background-color:rgba(0, 0, 0, 0.667);
+    color:white;
+    margin:50px 230px;
+    font-size:20px;
+    padding-left:100px;
+    padding-top:50px;
+    border-radius:20px;
+    width:500px;
+    height:300px;
+}
+
+input[type=text],input[type=tel]
+{ 
+    display:block;
+    margin-top:10px;
+    margin-bottom:10px;
+    width:350px;
+    height:20px;
+}
+button
+{
+    display:inline-block;
+    margin-left:50px;
+    margin-top:30px;
+    background-color:white;
+    width:100px;
+    height:30px;
+    
+}
+
+button:hover
+{
+    background-color:rgba(0, 0, 0, 0.455);
+    color:white;
+}
+a
+{
+    text-decoration: none;
+    color:black;
+    display:block;
+    margin:0;
+}

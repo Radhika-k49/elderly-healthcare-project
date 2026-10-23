@@ -1,0 +1,68 @@
+main
+{
+    margin:50px;
+    font-size:20px;
+    color:brown;
+}
+
+main img
+{
+  display:block;
+  border-radius:20px;
+}
+.cells
+{
+  background-color: bisque;
+  padding:20px;
+  border-radius:10px;
+}
+td img
+{
+  border-radius:20px;
+}
+.heading
+{
+   background-color:brown;
+   color:white;
+   border-radius:10px;
+   padding-left:10px;
+}
+.join
+{ 
+   width:1000px;
+   height:150px;
+   border:2px solid brown;
+   border-radius:10px;
+   margin-left:-20px;
+   margin-top:40px;
+   background-color:antiquewhite;
+   font-size:30px;
+   text-align:center;
+   padding:20px;
+   box-sizing:border-box;
+  }
+  .joinusbtn
+  {
+    position:relative;
+    top:20px;
+    font-size:20px;
+    background-color:burlywood;
+    width:100px;
+    height:40px;
+  }
+  .joinusbtn:hover
+  {
+    background-color: rgba(165, 42, 42, 0.805);
+  }
+  .job
+  {
+    text-decoration: none;
+    color:black;
+  }
+
+  button a
+  {
+    display:block;
+    margin:0;
+    padding:0;
+  }

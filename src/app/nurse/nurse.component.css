@@ -1,0 +1,76 @@
+
+.div1{
+    margin:40px;
+    margin-bottom:0;
+    font-size:20px;
+    color:brown;
+    text-align: justify;
+}
+
+.image
+{
+    height:400px;
+    width:600px;
+    margin-left:230px;
+    margin-top:40px;
+    border-radius:20px;
+    border:1px solid brown;
+}
+
+.div2
+{
+    margin:30px 40px;
+    color:brown;
+    font-size:20px;
+}
+
+span
+{
+    font-size:30px;
+    color:red;
+    text-decoration-line: underline;
+}
+
+.outerdiv
+{
+    height:170px;
+    width:350px;
+    border:1px solid brown;
+    display:inline-block;
+    margin-left:120px;
+    margin-bottom:30px;
+    border-radius:20px;
+    
+}
+
+.outerdiv img
+{
+    height:170px;
+    width:170px;
+    border-radius:20px;
+}
+
+.text
+{
+    position:relative;
+    left:190px;
+    bottom:150px;
+    color:brown;
+}
+
+button
+{
+    background-color:brown;
+    border:none;
+    font-size:20px;
+    position:relative;
+    left:450px;
+    bottom:50px;
+    padding:5px;
+}
+
+a
+{
+    color:white;
+    text-decoration: none;
+}
